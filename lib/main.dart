@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 //import './pages/splash.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-
-import 'pages/dataTable.dart';
 import 'pages/loginPage.dart';
-import 'pages/table.dart';
 
 void main() => runApp(MyApp());
 

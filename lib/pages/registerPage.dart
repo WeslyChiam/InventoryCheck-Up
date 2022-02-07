@@ -21,7 +21,7 @@ class registerPage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(200),
               ),
               child: Center(
-                child: Image.asset('logo/ITU-logo.png'),
+                child: Image.asset('logo/logo.png'),
               ),
             ),
             Padding(
