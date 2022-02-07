@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       home: AnimatedSplashScreen(
         duration: 3000,
         splash: Image(
-          image: AssetImage('logo/ITU-logo.png'),
+          image: AssetImage('logo/logo.png'),
         ),
         //splash: Icons.home,
         //nextScreen: loginPage(),
