@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         ),
         //splash: Icons.home,
         //nextScreen: loginPage(),
-        nextScreen: dataTable(),
+        nextScreen: loginPage(),
         // nextScreen: MyHomePage(
         //   title: 'Welcome',
         // ),
