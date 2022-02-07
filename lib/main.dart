@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 //import './pages/splash.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-
-import 'pages/dataTable.dart';
 import 'pages/loginPage.dart';
-import 'pages/table.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,16 +23,16 @@ class MyApp extends StatelessWidget {
       home: AnimatedSplashScreen(
         duration: 3000,
         splash: Image(
-          image: AssetImage('logo/ITU-logo.png'),
+          image: AssetImage('logo/logo.png'),
         ),
         //splash: Icons.home,
         //nextScreen: loginPage(),
-        nextScreen: table(),
+        nextScreen: loginPage(),
         // nextScreen: MyHomePage(
         //   title: 'Welcome',
         // ),
         splashTransition: SplashTransition.fadeTransition,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
       ),
     );
   }
