@@ -30,12 +30,12 @@ class MyApp extends StatelessWidget {
         ),
         //splash: Icons.home,
         //nextScreen: loginPage(),
-        nextScreen: table(),
+        nextScreen: dataTable(),
         // nextScreen: MyHomePage(
         //   title: 'Welcome',
         // ),
         splashTransition: SplashTransition.fadeTransition,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
       ),
     );
   }
